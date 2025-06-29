@@ -13,7 +13,7 @@ terraform {
   backend "s3" {
     bucket = "gitops-cc-terraform-state"
     key    = "terraform/all-state/gitops-cc-terraform-state.tfstate"
-    region = "us-east-1"
+    region = "us-east-2"
     encrypt = true
   }
 }
